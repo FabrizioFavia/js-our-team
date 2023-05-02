@@ -51,8 +51,8 @@ for (let i = 0; i < arrayMembers.length; i++) {
     memberJob.append(member.ruolo);
     line.append(memberJob);
 
-    let memberPhoto = document.createElement("div");
-    memberPhoto.classList.add("memberInfo");
+    let memberPhoto = document.createElement("img");
+    memberPhoto.src = `./img/${member.foto}`;
     memberPhoto.append(member.foto);
     line.append(memberPhoto);
 

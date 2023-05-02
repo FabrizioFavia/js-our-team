@@ -18,18 +18,19 @@ header{
 
 main{
     height: calc(100vh - 80px);
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .cardContainer{
-    min-height: 50px;
+    height: 700px;
     max-width: 900px;
     color: white;
+    overflow-y: auto;
 }
 
 .memberLine{
     width: 100%;
-    height: 50px;
+    min-height: 50px;
     border: 1px solid rgb(72, 67, 67);
     display: flex;
 }
